@@ -1,0 +1,76 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #272727;
+	color: #fff;
+	transition: .4s linear;
+}
+
+
+#test {
+	color: red;
+   margin: 0;
+  padding: 0;
+}
+
+.test {
+	color: blue;
+}
+
+
+#example {
+    width: 300px;
+    height: 200px;
+    color: #fff;
+    border: 25px solid #E8C48F; /* рамка 25px */
+    padding: 20px;              /* поля 20px */
+    overflow: auto;             /* прокрутка */
+}
+
+button#toTop {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+}
+
+#field {
+	width: 200px;
+	height: 200px;
+	background-color: #fff;
+	border: 2px solid green;
+	cursor: pointer;
+	margin: 20px;
+	position: relative;
+}
+
+#field img {
+	position: absolute;
+	transition: 1s;
+	left: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+}
+
+
+/*MOUSE*/
+
+.mouseover {
+  margin: 100px;
+}
+
+#hovBlock {
+  display: none;
+	position: absolute;
+  left: 0;
+  top: 0;
+  padding: 5px;
+  background-color: #fff;
+  color: #272727;
+  opacity: .8;
+  border-radius: 5px;
+  box-shadow: 2px 1px 3px #000000;
+  box-sizing: border-box;
+}
+
+
